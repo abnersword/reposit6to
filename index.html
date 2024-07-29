@@ -7,23 +7,26 @@
     <link rel="stylesheet" href="css-hojavitae.css">
 </head>
 <body>
-    <header class="fondo">
-        <section class="tiulo">
+    <header class="">   
+        <div>
+        <img src="img/20240728_122807.jpg" alt="logo">
         <h1 class="">hoja de vida Abner Ac</h1>
-        </section>
+        </div>
     </header>
     <div class="navegacion">
     <nav class="navegacion-principal">
         <a href="#">inicio</a>
-        <a href="#">Datos Personales</a>
-        <a href="#">Fromacion Academica</a>
-        <a href="#">Contacto</a>
+        <a href="#personales">Datos Personales</a>
+        <a href="#formacion">Formacion Academica</a>
+        <a href="#contactos">Contacto</a>
     </nav>
     </div>
     <main>
-    <section>
-        
+    <section id="personales">
             <h2>Datos Personales</h2>
+            <center>
+            <img src="img/face-smile-solid.svg" alt="smile" class="imge">
+        </center>
         <div class="personales">
             <div class="datasos">
             <h4>Nombre: </h4>
@@ -43,8 +46,11 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="formacion">
         <h2>formacion academica</h2>
+        <center>
+            <img src="img/book-solid.svg" alt="book">
+        </center>
         <div class="clases">
         <div class="escuela">
             <h4>ciclo diversificado</h4>
@@ -63,8 +69,11 @@
         </div>
         </div>
     </section>
-    <section>
+    <section id="Contactos">
         <h2>Contacto</h2>
+        <center>
+            <img src="img/address-book-solid.svg" alt="notas">
+        </center>
         <form class="formulario">
             <fieldset>
                 <legend>Contacteme llenando todos los campos</legend>
@@ -84,9 +93,11 @@
             </div>
             <div class="campo">
             <div>
-            <label for=""> mensaje</label>
-            <textarea class="input-text"></textarea>
-            </div>
+                <div class="campo">
+                    <label for="experiencia"><strong>Mensaje</strong></label>
+                    <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+                    <button class="boton" type="submit" onsubmit="">Concluído</button>      
+                </div>
             </div>
         </form>
     </section>
