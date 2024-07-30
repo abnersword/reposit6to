@@ -214,8 +214,16 @@ fieldset {
     line-height: 2;
     text-align: center;
 }
-@media (max-width,390px){
+@media (max-width:1200px){
     .navegacion-principal a{
-        display:block;
+        display:grid;
+        grid-template-columns:repeat(1,1fr);
     }
+}
+
+@mediaw (max-width:600px) {
+    .navegacion-principal a {
+    display:grid;
+    grid-template-columns:repeat(1,1fr);
+}
 }
