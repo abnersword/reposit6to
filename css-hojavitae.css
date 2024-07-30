@@ -138,7 +138,7 @@ input, select, button {
         border-radius: 5px;
 }
 
-input .textarea {
+input textarea {
         width: 100%;
         padding: 6px 6px;
         border-radius:2px;
