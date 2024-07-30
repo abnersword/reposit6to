@@ -232,4 +232,6 @@ fieldset {
     display:grid;
     grid-template-columns:repeat(1,1fr);
 }
+input textarea {
+    padding: 6px 6px;
 }
