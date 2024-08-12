@@ -117,10 +117,14 @@ a {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: auto auto 20 rem;
-        column-gap: 1rem;
+        column-gap: 1rem;    
+    }
+    textarea style{
+        width: 20em;
     }
 
 }
+
 .campo{
     margin-bottom: 4rem;
     grid-template-columns: auto auto 20rem;
@@ -131,20 +135,18 @@ a {
     display: block;
 }
 
-input, select, button {
+input, select, textarea, button {
         font-family: sans-serif;
         font-size: 1em;
         color: #83de99;
         border-radius: 5px;
-}
-
-input textarea {
         width: 100%;
-        padding: 6px 6px;
-        border-radius:2px;
 }
 fieldset {
         border: 0;
+}
+.text-message{
+    height: 10vh;
 }
 .campo input[type="text"], .campo input[type="email"], .campo input[type="number"], .campo textarea {
     padding: 0.2em;
@@ -219,19 +221,4 @@ fieldset {
 .datasos p{
     line-height: 2;
     text-align: center;
-}
-@media (max-width:1200px){
-    .navegacion-principal a{
-        display:grid;
-        grid-template-columns:repeat(1,1fr);
-    }
-}
-
-@media (max-width:600px) {
-    .navegacion-principal a {
-    display:grid;
-    grid-template-columns:repeat(1,1fr);
-}
-input textarea {
-    padding: 6px 6px;
 }
